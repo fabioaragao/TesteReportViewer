@@ -16,5 +16,12 @@ namespace TesteReportViewer
         {
             InitializeComponent();
         }
+
+        private void btnRelatorio_Click(object sender, EventArgs e)
+        {
+            frmRelatorio frmrelatorio = new frmRelatorio();
+            frmrelatorio.ShowDialog();
+            frmrelatorio.Dispose();
+        }
     }
 }
